@@ -3,7 +3,7 @@
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-telnet
 
 
-#### Discovery
+### Discovery
 Commonly discovered on a port scan:
 
 `$ sudo nmap -n -p 23 -sTV <ip_address>`
@@ -14,7 +14,7 @@ Wireshark packet captures might also reveal telnet communication. Wireshark filt
 
 `tcp.port == 23`
 
-#### Enumeration
+### Enumeration
 Commonly connected to with the telnet, netcat, ncat and other capable clients.
 
 Banner grab with netcat:
@@ -45,7 +45,7 @@ Example:
 ![Pasted image 20240327154337](attachments/Pasted%20image%2020240327154337.png)
 
 
-#### Exploitation
+### Exploitation
 - Sniff plaintext credentials or data over network traffic
 - Weak credentials / credential guessing
 - Credential brute force
