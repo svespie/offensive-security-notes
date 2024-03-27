@@ -18,4 +18,4 @@ There is also a telnet client. Basic syntax:
 
 `$ telnet <ip> <optional:port>`
 
-![[Pasted image 20240327151515.png]]
+![[attachments/Pasted image 20240327151515.png]]
