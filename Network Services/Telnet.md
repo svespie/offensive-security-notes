@@ -2,7 +2,6 @@
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-telnet
 
-
 ### Discovery
 Commonly discovered on a port scan:
 
@@ -23,18 +22,15 @@ Banner grab with netcat:
 
 ![Pasted image 20240327152508](attachments/Pasted%20image%2020240327152508.png)
 
-
 Additional enumeration can be performed by nmap:
 
 `$ sudo nmap -n -p -sTV --script "*telnet* and safe" <ip_address>`
 
 ![Pasted image 20240327153104](attachments/Pasted%20image%2020240327153104.png)
 
-
-
 Metasploit also has some modules for telnet enumeration:
 
-![Pasted image 20240327154131](attachments/Pasted%20image%2020240327154131.png)
+![Pasted image 20240327154131|1000](attachments/Pasted%20image%2020240327154131.png)
 
 Example:
 
@@ -43,7 +39,6 @@ Example:
 `msf> run`
 
 ![Pasted image 20240327154337](attachments/Pasted%20image%2020240327154337.png)
-
 
 ### Exploitation
 - Sniff plaintext credentials or data over network traffic
