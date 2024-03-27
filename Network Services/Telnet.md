@@ -1,4 +1,4 @@
-[[../Reference/Networking/Protocols/Telnet|Telnet]]
+[Telnet Reference](../Reference/Networking/Protocols/Telnet.md)
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-telnet
 
@@ -8,7 +8,7 @@ Commonly discovered on a port scan:
 
 `$ sudo nmap -n -p 23 -sTV <ip_address>`
 
-![[attachments/Pasted image 20240327152146.png]]
+![Pasted image 20240327152146](attachments/Pasted%20image%2020240327152146.png)
 
 Wireshark packet captures might also reveal telnet communication. Wireshark filter:
 
@@ -21,20 +21,20 @@ Banner grab with netcat:
 
 `$ nc -nv <ip_address> 23`
 
-![[attachments/Pasted image 20240327152508.png]]
+![Pasted image 20240327152508](attachments/Pasted%20image%2020240327152508.png)
 
 
 Additional enumeration can be performed by nmap:
 
 `$ sudo nmap -n -p -sTV --script "*telnet* and safe" <ip_address>`
 
-![[attachments/Pasted image 20240327153104.png]]
+![Pasted image 20240327153104](attachments/Pasted%20image%2020240327153104.png)
 
 
 
 Metasploit also has some modules for telnet enumeration:
 
-![[attachments/Pasted image 20240327154131.png]]
+![Pasted image 20240327154131](attachments/Pasted%20image%2020240327154131.png)
 
 Example:
 
@@ -42,7 +42,7 @@ Example:
 `msf> set RHOST <ip_address>`
 `msf> run`
 
-![[attachments/Pasted image 20240327154337.png]]
+![Pasted image 20240327154337](attachments/Pasted%20image%2020240327154337.png)
 
 
 #### Exploitation
