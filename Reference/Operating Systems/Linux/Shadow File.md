@@ -1,6 +1,6 @@
 [Understanding /etc/shadow file format on Linux - nixCraft (cyberciti.biz)](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)
 
-![](attachments/Pasted%20image%2020240327185506.png)
+![](../../../_attachments/Pasted%20image%2020240327185506.png)
 
 Requires elevated privileges to access it often contains password hashes.
 
@@ -18,6 +18,6 @@ The fields:
 
 
 
-![](attachments/Pasted%20image%2020240327190524.png)
+![](../../../_attachments/Pasted%20image%2020240327190524.png)
 
 `$ man 5 crypt`
