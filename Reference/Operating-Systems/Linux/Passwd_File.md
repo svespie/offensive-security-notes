@@ -1,6 +1,6 @@
 [passwd(5) - Linux manual page (man7.org)](https://man7.org/linux/man-pages/man5/passwd.5.html)
 
-![](../../../_attachments/Pasted%20image%2020240327185420.png)
+![](../../../_attachments/etc_passwd.png)
 
 A colon separates fields as with /etc/shadow.
 

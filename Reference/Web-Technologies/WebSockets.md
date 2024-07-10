@@ -17,13 +17,13 @@
 Web socket is established over HTTP via a handshake:
 
 (client)
-![](../../_attachments/Pasted%20image%2020240401140915.png)
+![](../../_attachments/websocket_request.png)
 * Connection and Upgrade headers indicate a WebSocket handshake
 * Sec-WebSocket-Version specifies protocol version - typically 13 (?)
 * Sec-WebSocket-Key is a base64 encoded random value, regenerated with each handshake request
 
 (server, if accepted)
-![](../../_attachments/Pasted%20image%2020240401140938.png)
+![](../../_attachments/websocket_upgrade.png)
 * Sec-WebSocket-Accept value is a hashed value of Sec-WebSocket-Key from the initial handshake to help keep thing straight
 
 

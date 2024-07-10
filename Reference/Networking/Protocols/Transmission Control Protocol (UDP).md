@@ -11,7 +11,7 @@ Session is established via 3-way handshake (usually - there are other variations
 3. Machine A responds by sending a packet with the ACK flag set and Machine B's sequence number incremented by 1.
 
 At this point the 
-![](../../../_attachments/Pasted%20image%2020240327201355.png)
+![](../../../_attachments/syn_ack.png)
 
 TCP introduces the concept of ports. Ports provide a means for a machine to have multiple inbound and outbound connections without the complexity of filtering, sorting, and routing within the machine itself. 
 
