@@ -1,4 +1,4 @@
-[Telnet Reference](../Reference/Networking/Protocols/Telnet.md)
+[Telnet Reference](../Reference/Networking/Protocols/TELNET.md)
 
 https://book.hacktricks.xyz/network-services-pentesting/pentesting-telnet
 
