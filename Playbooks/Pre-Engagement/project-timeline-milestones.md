@@ -1,0 +1,1 @@
+This document outlines the key phases and milestones of the project along with expected completion dates. This serves to assist the client in tracking the progress of the project.
