@@ -105,6 +105,7 @@ In no particular order...
     - **Shodan**: Search engine for Internet-connected devices.
     - **Censys**: Search infrastructure for hosts and networks.
     - **FOFA**: Similar to Shodan for devices and IPs.
+    - [netcraft](Passive/Technical-Information/netcraft.md)
 ##### 7. Third-Party and Supply Chain
 - Third-Party Services:
   - **Tools:** 
