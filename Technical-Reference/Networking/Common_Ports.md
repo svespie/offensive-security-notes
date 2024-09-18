@@ -52,3 +52,5 @@
 | HSQL/HSQLDB                   | TCP                                     | 9001                                                    |                                           |
 | Openfire                      | TCP                                     | 9090 (HTTP) <br><br>9091 (HTTPS)                        |                                           |
 | JetDirect                     | TCP                                     | 9100                                                    |                                           |
+
+
