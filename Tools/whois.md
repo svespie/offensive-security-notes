@@ -1,3 +1,5 @@
+#whois 
+
 The whois tool can be used to obtain general information about a domain, particularly DNS servers. Whois is built into most Linux distros, but there is a version for Windows in the sysinternals suite.
 
 [Whois - Sysinternals | Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/whois)
