@@ -1,0 +1,1 @@
+Details how data collected during the engagement will be handled, stored, and securely destroyed after the project conclusion.

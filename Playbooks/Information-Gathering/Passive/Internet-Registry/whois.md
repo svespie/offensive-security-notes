@@ -1,4 +1,4 @@
-[Network Protocol](../../../../Technical-Reference/Networking/Protocols/WHOIS.md)
+[Network Protocol](../../../../Reference/Networking/Protocols/WHOIS.md)
 
 [Tool Reference](../../../../Tools/whois.md)
 

@@ -2,7 +2,7 @@ The whois tool can be used to obtain general information about a domain, particu
 
 [Whois - Sysinternals | Microsoft Learn](https://learn.microsoft.com/en-us/sysinternals/downloads/whois)
 
-The whois tool uses the [WHOIS](../Technical-Reference/Networking/Protocols/WHOIS.md) network protocol.
+The whois tool uses the [WHOIS](../Reference/Networking/Protocols/WHOIS.md) network protocol.
 
 ![](../_attachments/whois.png)
 

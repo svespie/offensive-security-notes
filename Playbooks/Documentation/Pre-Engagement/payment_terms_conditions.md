@@ -1,0 +1,1 @@
+Usually part of the contract, this document outlines the fee structure, payment schedule, and conditions under which additional charges might be incurred.
