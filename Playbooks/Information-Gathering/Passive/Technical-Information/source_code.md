@@ -13,6 +13,8 @@ Here are some popular sources:
 
 Many online code repos offer the ability to search a codebase - something to look into based on the platform in use.
 
+[Searching on GitHub - GitHub Docs](https://docs.github.com/en/search-github/searching-on-github)
+
 There are tools that can aid in searching code repositories.
 
 * [git-wild-hunt](../../../../Tools/git-wild-hunt.md)
