@@ -11,7 +11,7 @@ In no particular order...
     - **Wappalyzer**: Browser extension to detect website technologies.
 - Search Engines:
   - **Tools:** 
-    - Google Dorking: Use advanced search operators.
+    - [google_hacking](Passive/Search-Engines/google_hacking.md): Use advanced search operators.
     - **PublicWWW**: Search for code snippets and technologies.
     - **Hunter.io**: Discover email addresses and other contact information.
     - **Intelligence X**: Search the dark web, leaks, and public records.
@@ -30,9 +30,9 @@ In no particular order...
     - **Indeed** / **Glassdoor** / **LinkedIn Jobs**: Search for company job postings.
     - **Google Dorking**: Search for job postings using specific keywords.
 ##### 2. Domain and Network Information
-- WHOIS Lookup:
+- [WHOIS](Passive/Internet-Registry/WHOIS.md):
   - **Tools:** 
-    - **whois**: Command-line tool to query WHOIS databases.
+    - [whois](../../Tools/whois.md): Command-line tool to query WHOIS databases.
     - **ICANN WHOIS**: Official web-based WHOIS lookup.
     - **DomainTools**: Comprehensive domain and WHOIS lookup service.
 - DNS Reconnaissance:
