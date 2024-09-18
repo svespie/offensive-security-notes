@@ -1,4 +1,4 @@
-#google #googlehacking #googledorking
+#passive #google #googlehacking #googledorking
 
 Search engines can be useful for information gathering by crawling and indexing information about a given target and resources through creative searches.
 
