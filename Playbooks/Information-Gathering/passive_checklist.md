@@ -1,0 +1,132 @@
+#checklist
+
+In no particular order...
+##### 1. OSINT (Open Source Intelligence)
+- Company Website:
+  - **Tools:** 
+    - Browser DevTools: Inspect HTML, CSS, and JavaScript.
+    - `wget`/`curl`: Download entire websites for offline analysis.
+    - **Wayback Machine**: View historical versions of websites.
+    - **BuiltWith**: Identify technologies used on the website.
+    - **Wappalyzer**: Browser extension to detect website technologies.
+- Search Engines:
+  - **Tools:** 
+    - Google Dorking: Use advanced search operators.
+    - **PublicWWW**: Search for code snippets and technologies.
+    - **Hunter.io**: Discover email addresses and other contact information.
+    - **Intelligence X**: Search the dark web, leaks, and public records.
+- Corporate Blogs and Press Releases:
+  - **Tools:** 
+    - RSS Feed Readers (e.g., Feedly): Monitor company blog updates.
+    - **Google Alerts**: Set up alerts for specific keywords related to the target.
+- Social Media:
+  - **Tools:** 
+    - **LinkedIn**: Scrape employee details.
+    - **theHarvester**: Gather emails, subdomains, and employee names.
+    - **Maltego**: Visual link analysis and OSINT tool.
+    - **Twint**: Advanced Twitter scraping tool.
+- Job Listings:
+  - **Tools:** 
+    - **Indeed** / **Glassdoor** / **LinkedIn Jobs**: Search for company job postings.
+    - **Google Dorking**: Search for job postings using specific keywords.
+##### 2. Domain and Network Information
+- WHOIS Lookup:
+  - **Tools:** 
+    - **whois**: Command-line tool to query WHOIS databases.
+    - **ICANN WHOIS**: Official web-based WHOIS lookup.
+    - **DomainTools**: Comprehensive domain and WHOIS lookup service.
+- DNS Reconnaissance:
+  - **Tools:** 
+    - **dnsrecon**: DNS enumeration tool.
+    - **dnsenum**: DNS enumeration script.
+    - **Amass**: In-depth DNS enumeration and subdomain discovery.
+    - **Sublist3r**: Subdomain enumeration tool.
+    - **Dig** / **nslookup**: Command-line DNS querying tools.
+- Reverse DNS Lookups:
+  - **Tools:** 
+    - **Reverse IP Lookup**: Online tools like ViewDNS.info.
+    - **Shodan**: Identify associated IP addresses.
+- SSL/TLS Certificates:
+  - **Tools:** 
+    - **crt.sh**: Search for SSL/TLS certificates.
+    - **Censys**: Explore SSL/TLS certificates and related data.
+    - **SSLScan**: Command-line tool to enumerate SSL/TLS certificates.
+##### 3. Internet Archives and Historical Data
+- Wayback Machine (archive.org):
+  - **Tools:** 
+    - **Wayback Machine**: Directly access via website.
+    - **waybackpack**: Download Wayback Machine snapshots.
+- Historical DNS Records:
+  - **Tools:** 
+    - **SecurityTrails**: Access historical DNS data.
+    - **DNSDumpster**: Visualize DNS information.
+- Cached Pages and Snapshots:
+  - **Tools:** 
+    - Google Cache: Use `cache:target.com` in Google search.
+    - **archive.today**: Take and search snapshots of web pages.
+##### 4. Email and Employee Information
+- Email Harvesting:
+  - **Tools:** 
+    - **theHarvester**: Collect emails and subdomains.
+    - **Email2Domain**: Enumerate email addresses based on patterns.
+    - **Hunter.io**: Email address search and validation.
+- Employee Profiling:
+  - **Tools:** 
+    - **LinkedIn Scraper**: Extract LinkedIn data using tools like **LinkedInt**.
+    - **Sherlock**: Find usernames across social networks.
+    - **FOCA**: Extract metadata from documents (e.g., authors, software versions).
+##### 5. Public Records and Databases
+- Company Filings and Legal Documents:
+  - **Tools:** 
+    - **EDGAR**: Search SEC filings.
+    - **Google Scholar**: Search for patents and court documents.
+    - **Public Record Search**: Websites like **OpenCorporates** and **Company House**.
+- Data Breaches:
+  - **Tools:** 
+    - **Have I Been Pwned**: Check if the domain is part of known data breaches.
+    - **Dehashed**: Search leaked databases.
+    - **IntelX**: Search paste sites, darknet, and leaks.
+- Paste Sites and Forums:
+  - **Tools:** 
+    - **Pastebin**: Search for potentially leaked information.
+    - **PasteHunter**: Scrape pastes from multiple sources.
+    - **Torch**: Dark web search engine.
+##### 6. Technical Footprinting
+- Network Ranges and IP Address Blocks:
+  - **Tools:** 
+    - **ARIN** / **RIPE** / **APNIC**: IP and ASN lookup services.
+    - **censys.io**: Identify IP ranges and services.
+- ASN Lookup:
+  - **Tools:** 
+    - **bgp.he.net**: Autonomous System Number (ASN) information.
+    - **IPinfo**: ASN and IP address lookups.
+- Shodan and Censys:
+  - **Tools:** 
+    - **Shodan**: Search engine for Internet-connected devices.
+    - **Censys**: Search infrastructure for hosts and networks.
+    - **FOFA**: Similar to Shodan for devices and IPs.
+##### 7. Third-Party and Supply Chain
+- Third-Party Services:
+  - **Tools:** 
+    - **BuiltWith**: Discover technologies used by a website.
+    - **SpyOnWeb**: Identify common analytics codes and IP addresses.
+    - **PublicWWW**: Search for shared code and resources across sites.
+- DNS and Email Providers:
+  - **Tools:** 
+    - **MXToolbox**: DNS, MX, and email provider lookup.
+    - **DNSDumpster**: DNS and MX record analysis.
+- Supply Chain Research:
+  - **Tools:** 
+    - **OpenCorporates**: Search global company data.
+    - **RiskIQ**: Monitor external threats including third-party risks.
+    - **Spyse**: Investigate the external attack surface.
+##### 8. Infrastructure Enumeration
+- Content Delivery Networks (CDNs):
+  - **Tools:** 
+    - **Wappalyzer**: Browser extension to detect CDNs and technologies.
+    - **BuiltWith**: Identify the use of CDNs.
+- WAF and Security Headers:
+  - **Tools:** 
+    - **wafw00f**: Detect Web Application Firewalls (WAFs).
+    - **SecurityHeaders.com**: Analyze HTTP security headers.
+    - **WhatWeb**: Identify web technologies and headers.
