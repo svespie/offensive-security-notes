@@ -19,4 +19,7 @@ There are tools that can aid in searching code repositories.
 
 * [git-wild-hunt](../../../../Tools/git-wild-hunt.md)
 * [trufflehog](../../../../Tools/trufflehog.md)
+* [gitrob](../../../../Tools/gitrob.md)
+* [gitleaks](../../../../Tools/gitleaks.md)
+
 
