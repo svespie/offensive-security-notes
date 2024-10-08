@@ -8,7 +8,7 @@
 | [SMTP](Protocols/SMTP.md)     | TCP                                     | 25 (relay) <br><br>587 (submission)                     |                                           |
 | [WHOIS](Protocols/WHOIS.md)   | TCP                                     | 43                                                      |                                           |
 | TACACS                        | TCP <br><br>UDP                         | 49 <br><br>49                                           | TCP or UDP                                |
-| DNS                           | TCP <br><br>UDP                         | 53 <br><br>53                                           | TCP or UDP (see protocol for details)     |
+| [DNS](Protocols/DNS.md)       | TCP <br><br>UDP                         | 53 <br><br>53                                           | TCP or UDP (see protocol for details)     |
 | DHCP                          | UDP                                     | 67, 68                                                  |                                           |
 | TFTP                          | UDP                                     | 69                                                      |                                           |
 | [HTTP](Protocols/HTTP.md)     | TCP <br><br>TCP                         | 80 <br><br>443 (over TLS)                               |                                           |
