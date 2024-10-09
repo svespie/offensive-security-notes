@@ -16,6 +16,10 @@ $ host -t axfr -l <domain> <nameserver>
 
 ![](../../../../_attachments/zone_transfer-1.png)
 
+Here is an example where a host was found to be serving DNS on TCP 53 (usually its UDP 53). This should alert you to a potential zone transfer, particularly if you have a potential domain name to query.
+![](../../../../_attachments/zone_transfer-4.png)
+
+
 Taking the `host` command for example, a simple bash script can help automate this given a domain:
 
 ```
